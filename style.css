@@ -1,6 +1,4 @@
-/* =========================================
-   RESET Y CONFIGURACIÓN GENERAL
-   ========================================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* =========================================
-   HEADER Y NAVEGACIÓN
-   ========================================= */
+
 header {
     background: linear-gradient(135deg, #ff0055 0%, #7000ff 50%, #00d4ff 100%);
     padding: 25px 20px;
@@ -67,16 +63,14 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
-/* Clase active para marcar la página actual */
+
 nav ul li a.active {
     background-color: #ffea00;
     color: #0d0d14;
     box-shadow: 0 0 12px rgba(255, 234, 0, 0.7);
 }
 
-/* =========================================
-   CONTENIDO PRINCIPAL (MAIN Y SECCIONES)
-   ========================================= */
+
 main {
     max-width: 1150px;
     width: 100%;
@@ -106,7 +100,6 @@ section {
     align-items: start;
 }
 
-/* Hacer que los títulos y párrafos sueltos de sección ocupen todo el ancho */
 section > h1,
 section > h2,
 section > p {
@@ -120,9 +113,7 @@ section > p {
     margin-bottom: 10px;
 }
 
-/* =========================================
-   TARJETAS (ARTICLES)
-   ========================================= */
+
 article {
     background-color: #181824;
     border: 1px solid #2b2b3d;
